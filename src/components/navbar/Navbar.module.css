@@ -1,0 +1,13 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    padding: 10px;
+    height: 45px;
+}
+
+.logo img {
+    display: block;
+    width: 50px;
+
+}
