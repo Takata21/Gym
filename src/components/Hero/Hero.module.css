@@ -1,0 +1,80 @@
+.HeroContainer {
+    position: relative;
+    margin-top: 5rem;
+    padding: 15px;
+
+
+}
+
+.HeroSubtitle {
+    color: #ff2625;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.HeroTitle {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 44px;
+    margin: 20px 0 15px 0;
+}
+
+.HeroDesc {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.HeroDesc:first-letter {
+    text-transform: capitalize;
+
+}
+
+.HeroBtn {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: #ff2625;
+    color: white;
+    text-transform: capitalize;
+}
+
+.HeroBtn:hover {
+    background-color: #ff25259c;
+}
+
+.HeroImg {
+    position: absolute;
+    display: none;
+    right: -40px;
+    top: 0;
+    margin-top: -180px;
+    width: 600px;
+    height: 700px;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.HeroBackText {
+    display: none;
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 200px;
+    color: #ff2625;
+    opacity: 0.1;
+}
+
+@media screen and (min-width:1200px) {
+    .HeroContainer {
+        padding-left: 40px;
+    }
+
+    .HeroImg {
+        display: block;
+    }
+
+    .HeroBackText {
+        display: block;
+    }
+}

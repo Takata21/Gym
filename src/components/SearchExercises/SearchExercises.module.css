@@ -1,0 +1,47 @@
+.SearchContainer {
+    padding: 15px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.searchTitle {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.searchFormControl {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #c9c7c7;
+}
+
+.searchInput {
+    flex: 1;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.SearchBtn {
+    width: 20%;
+    background-color: #ff2625;
+    color: white;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.SearchBtn:hover {
+    background-color: #ff25259c;
+}
+
+@media screen and (min-width:1200px) {
+    .searchFormControl {
+        max-width: 700px;
+    }
+}
