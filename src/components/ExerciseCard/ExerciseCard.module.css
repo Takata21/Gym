@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    min-height: 445px;
+    border: 1px solid red;
+}
+
+.container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: -5px;
+    background-color: #ff0000;
+}
+
+.container img {}
+
+.targets {}
+
+.title {}

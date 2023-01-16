@@ -1,0 +1,27 @@
+.sliderWrapper {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.sliderButtons {
+display: flex;
+justify-content: flex-end;
+gap: 10px;
+}
+.sliderButtons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 25px;
+    margin: 15px 0;
+    transition: .5s ease-in-out transform;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sliderButtons button:hover{
+    transform: scale(1.3);
+}

@@ -3,14 +3,17 @@ import styles from './Home.module.css'
 import Hero from '../../components/Hero/Hero'
 import Exercises from '../../components/Exercises/Exercises'
 import SearchExercises from '../../components/SearchExercises/SearchExercises'
+import BodyParts from '../../components/BodyParts/BodyParts'
+
 function Home () {
   return (
-    <div className={styles.container}>
+    <>
       <Hero />
       <SearchExercises />
+      <BodyParts />
       <Exercises />
 
-    </div>
+    </>
   )
 }
 
